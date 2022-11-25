@@ -1,0 +1,57 @@
+.bg--ebony-clay{
+    background-color: #252B42;
+}
+.bg--image{
+    background-image: url("../images/pic1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 95vh;
+    overflow-y: hidden;
+}
+.bg--supernova{
+    background-color: #F3CD03;
+}
+.bg--black-75{
+    background: rgba(0, 0, 0, 0.75);
+    min-height: 95vh;
+}
+.bg--jordy-blue{
+    background-color: #8EC2F2;
+}
+.fs--14{
+    font-size: 14px;
+}
+.style-none{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.star__item{
+    height: 1.5rem;
+    width: 1.5rem;
+    clip-path: polygon(50% 0%,75% 25%,100% 24%,80% 60%,100% 90%,50% 70%,10% 90%,20% 60%,0% 24%,25% 25%);
+    border: 1px solid #F3CD03;
+}
+.image__item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    /* max-width: 100%; */
+}
+.image__item h3{
+    text-shadow: 0px 13px 19px rgba(0, 0, 0, 0.24) !important;
+}
+.image__item--bg1{
+    background-image: url(../images/post.png);
+}
+.image__item--bg2{
+    background-image: url(../images/post2.png);
+}
+.image__item--bg3{
+    background-image: url(../images/post3.png);
+}
+.image__item--bg4{
+    background-image: url(../images/post4.png);
+}
